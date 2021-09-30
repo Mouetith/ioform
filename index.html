@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Output</title> 
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   
+</head>
+<body>
+   <div class="container">
+            <form name="testf" class="form-group​ mt-form">    
+                <div class="row">
+                      <div class="col-2"></div>
+                      <div class="col-lg-4 mt-input">
+                        <h4>បំពេញទម្រង់</h4>
+                        <p>
+                            នាមខ្លួន: <input type="text" name="fname" id=""  class="form-control">
+                        </p>
+                        <p>
+                            នាមត្រកូល: <input type="text" name="lname" id=""  class="form-control">
+                        </p>
+                        <p>
+                            ភេទ: <br>
+                            <input type="radio" id="female" name="sex" value="ស្រី" checked >
+                            <label for="female" >ស្រី</label>
+                            <input type="radio" id="male" name="sex" value="ប្រុស" >
+                            <label for="male">ប្រុស</label >
+                        </p>
+                        <p>
+                            ថ្នាក់:
+                            <input type="text" name="class" id=""  class="form-control">
+                        </p>
+                        
+                        <p>
+                            វេន: <select name="shift" class="form-control">
+                                <option value="ពេលព្រឹក" class="form-control">ពេលព្រឹក</option>
+                                <option value="ពេលល្ងាច" class="form-control">ពេលល្ងាច</option>
+                                <option value="ពេលយប់" class="form-control">ពេលយប់</option>
+                            </select>
+                        </p>
+                        <input type="button" class="btn btn-primary" value="បញ្ចូន" onClick="myTest()" /><br />
+                        
+                    </div>
+                        <div class="col-lg-4 mt-result" >
+                        <h4>លទ្ធិផល</h4>
+                        <textarea name="dis" rows="10" cols="50"></textarea>
+                        </div>
+                    <div class="col-2"></div>
+                
+                </div>
+            </form> 
+        </div>    
+</body>
+</html>
+

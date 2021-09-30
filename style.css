@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Preahvihear", sans-serif !important;
+}
+.mt-form {
+  padding-top: 50px;
+  border-radius: 5px;
+} 
+.mt-input {
+  padding: 5px;
+  padding-top: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mt-result {
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+textarea {
+  border: none !important;
+  background: none;
+  line-height: 3 !important;
+}
+textarea:focus {
+  outline: none !important;
+  border-color: none !important;
+}
